@@ -23,18 +23,18 @@ export default function LeftContain() {
                 </div>
                 <div className="fxt-transformX-L-50 fxt-transition-delay-5">
                   <div className="fxt-middle-content">
-                    <h1 className="fxt-main-title">Đăng nhập</h1>
+                    <h1 className="fxt-main-title">Sign In to Rechage Direct</h1>
                     <div className="fxt-switcher-description1">
-                      Nếu bạn chưa có tài khoản Bạn có thể
-                      <a href="register-34.html" className="fxt-switcher-text ms-2">
-                        Đăng ký
-                      </a>
+                      If you don’t have an account You can
+                      <p className="fxt-switcher-text ms-2">
+                        Sign Up
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div className="fxt-transformX-L-50 fxt-transition-delay-7">
                   <div className="fxt-qr-code">
-                    <img src="img/elements/qr-login-34.png" alt="QR" />
+                    <img src="img/elements/qrcode.png" alt="QR" style={{width: 200}}/>
                   </div>
                 </div>
               </div>
@@ -74,9 +74,9 @@ export function LoginContain(){
                   </div>
                   <div className="form-group">
                     <div className="fxt-switcher-description2 text-right">
-                      <a href="forgot-password-34.html" className="fxt-switcher-text">
+                      <p  className="fxt-switcher-text">
                         Recovery Password
-                      </a>
+                      </p>
                     </div>
                   </div>
                   <div className="form-group">
